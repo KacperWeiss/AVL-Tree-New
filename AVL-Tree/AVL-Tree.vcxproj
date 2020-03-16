@@ -142,11 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Tree\AVLTree.cpp" />
     <ClCompile Include="src\ComparableData\ComparableData.cpp" />
+    <ClCompile Include="src\ComparableData\Person.cpp" />
+    <ClCompile Include="src\Tree\AVLTree.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\ComparableData\Person.h" />
     <ClInclude Include="src\Tree\AVLTree.h" />
     <ClInclude Include="src\ComparableData\ComparableData.h" />
     <ClInclude Include="src\Tree\fwd.h" />

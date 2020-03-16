@@ -3,4 +3,7 @@
 #include <memory>
 
 class Node;
-using NodeUPtr = std::unique_ptr<Node>;
+using NodePtr = std::shared_ptr<Node>;
+
+class ComparableData;
+using ComparableDataUPtr = std::unique_ptr<ComparableData>;

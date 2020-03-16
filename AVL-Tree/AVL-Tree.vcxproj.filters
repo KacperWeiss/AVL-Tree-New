@@ -2,13 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\ComparableData\ComparableData.cpp" />
     <ClCompile Include="src\Tree\AVLTree.cpp" />
+    <ClCompile Include="src\ComparableData\Person.cpp" />
+    <ClCompile Include="src\ComparableData\ComparableData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Tree\Node.h" />
     <ClInclude Include="src\Tree\fwd.h" />
     <ClInclude Include="src\ComparableData\ComparableData.h" />
     <ClInclude Include="src\Tree\AVLTree.h" />
+    <ClInclude Include="src\ComparableData\Person.h" />
   </ItemGroup>
 </Project>
